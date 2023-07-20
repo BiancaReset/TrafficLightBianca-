@@ -8,6 +8,7 @@ const Tlight = () => {
   };
 
   return (
+    <div className="box">
     <div id="traffic-light" className="container">
       <div
         className={`light red ${activeLight === 'red' ? 'active' : ''}`}
@@ -21,6 +22,7 @@ const Tlight = () => {
         className={`light green ${activeLight === 'green' ? 'active' : ''}`}
         onClick={() => handleLightClick('green')}
       ></div>
+    </div>
     </div>
   );
 };

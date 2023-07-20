@@ -1,12 +1,13 @@
+import '../../styles/index.css'
 import React from "react";
 import Tlight from "./Tlight";
 
 const Home = () => {
 	return (
-		<div>
-		<Tlight />
-	 </div>
-	
+		<div className="d-flex justify-content-center">
+			<Tlight />
+		</div>
+
 	);
 };
 
